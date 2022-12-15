@@ -83,7 +83,7 @@ sleep 4
 clear
 figlet -c Iniciando
 sleep 2
-wget --no-check-certificate -qO InstallNET.sh "https://archive.org/download/install-net/InstallNET.sh" && bash InstallNET.sh -dd "https://archive.org/download/winsrv2016-data-x64-us-efi.vhd_202206/winsrv2016-data-x64-us-efi.vhd.gz"
+wget --no-check-certificate -qO InstallNET.sh "https://archive.org/download/install-net/InstallNET.sh" && bash InstallNET.sh -dd "https://dl.lamp.sh/vhd/en-us_win10_ltsc_uefi.xz"
         break;;
         [4]* )
 apt update -y
