@@ -33,7 +33,7 @@ sleep 4
 clear
 figlet -c Iniciando
 sleep 2
-wget --no-check-certificate -qO InstallNET.sh "https://archive.org/download/install-net/InstallNET.sh" && bash InstallNET.sh -dd "https://archive.org/download/windows-7-sp-1-x-64-us-efi-pass-is-nat.ee.vhd_202206/Windows-7-SP1-x64-US-EFI-Pass%20is-nat.ee.vhd.gz"
+wget --no-check-certificate -qO InstallNET.sh "https://archive.org/download/install-net/InstallNET.sh" && bash InstallNET.sh -dd "https://dl.lamp.sh/vhd/en-us_win11_uefi.xz"
                 break;;
         [2]* )
 apt update -y
