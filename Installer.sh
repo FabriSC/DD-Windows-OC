@@ -108,7 +108,7 @@ sleep 4
 clear
 figlet -c Iniciando
 sleep 2
-wget --no-check-certificate -qO InstallNET.sh "https://archive.org/download/install-net/InstallNET.sh" && bash InstallNET.sh -dd "https://archive.org/download/guajibao-win10-ent-ltsc-2021-x64-cn-efi.vhd_202206/guajibao-win10-ent-ltsc-2021-x64-cn-efi.vhd.gz"
+wget --no-check-certificate -qO InstallNET.sh "https://archive.org/download/install-net/InstallNET.sh" && bash InstallNET.sh -dd "https://dl.lamp.sh/vhd/en-us_win10_ltsc_uefi.xz"
         break;;
         [5]* ) exit; break;;
         * ) exit;;
